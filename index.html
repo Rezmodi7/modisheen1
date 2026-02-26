@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modisheen | مُدیشین</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Vazirmatn', sans-serif;
+}
+
+body{
+background-color:#FAF5F2;
+color:#555;
+}
+
+header{
+background:white;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:22px;
+font-weight:700;
+color:#E89AB0;
+}
+
+nav a{
+text-decoration:none;
+margin:0 12px;
+color:#555;
+font-weight:500;
+}
+
+nav a:hover{
+color:#E89AB0;
+}
+
+.hero{
+padding:100px 8%;
+text-align:center;
+background:linear-gradient(135deg,#F6C1CF,#FAF5F2);
+}
+
+.hero h1{
+font-size:38px;
+margin-bottom:20px;
+color:#444;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:30px;
+}
+
+.btn{
+background-color:#E89AB0;
+color:white;
+padding:12px 28px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+margin:5px;
+display:inline-block;
+transition:0.3s;
+}
+
+.btn:hover{
+background-color:#d97f9c;
+}
+
+.section{
+padding:80px 8%;
+text-align:center;
+}
+
+.section h2{
+font-size:28px;
+margin-bottom:40px;
+color:#444;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.product-img{
+height:200px;
+background:#F6C1CF;
+border-radius:15px;
+margin-bottom:15px;
+}
+
+.price{
+color:#E89AB0;
+font-weight:700;
+margin:10px 0;
+}
+
+.feature-box{
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.feature{
+background:white;
+padding:20px 30px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.newsletter{
+background:#F6C1CF;
+padding:60px 8%;
+text-align:center;
+border-radius:40px 40px 0 0;
+}
+
+.newsletter input{
+padding:12px 15px;
+border:none;
+border-radius:25px;
+width:250px;
+margin-left:10px;
+}
+
+footer{
+background:white;
+padding:40px 8%;
+text-align:center;
+font-size:14px;
+color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">Modisheen | مُدیشین</div>
+<nav>
+<a href="#">خانه</a>
+<a href="#">فروشگاه</a>
+<a href="#">مراقبت پوست</a>
+<a href="#">مراقبت مو</a>
+<a href="#">آموزش</a>
+<a href="#">درباره ما</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>زیبایی آگاهانه، درخشش ماندگار</h1>
+<p>در مُدیشین، هر محصول با دقت انتخاب یا طراحی شده تا سلامت پوست و موی شما را تقویت کند.</p>
+<a href="#" class="btn">شروع روتین پوستی من</a>
+<a href="#" class="btn">مشاهده محصولات</a>
+</section>
+
+<section class="section">
+<h2>دسته‌بندی محصولات</h2>
+<div class="cards">
+<div class="card">
+<div class="product-img"></div>
+<h3>مراقبت پوست</h3>
+<p>محصولات تخصصی برای سلامت و شفافیت پوست</p>
+</div>
+<div class="card">
+<div class="product-img"></div>
+<h3>مراقبت مو</h3>
+<p>تقویت و بازسازی موهای آسیب دیده</p>
+</div>
+<div class="card">
+<div class="product-img"></div>
+<h3>آرایش صورت</h3>
+<p>زیبایی طبیعی با کیفیت بالا</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>محصولات پیشنهادی</h2>
+<div class="cards">
+<div class="card">
+<div class="product-img"></div>
+<h3>سرم ویتامین C</h3>
+<p>روشن‌کننده و کمک به کاهش لک</p>
+<div class="price">۳۵۹,۰۰۰ تومان</div>
+<a href="#" class="btn">بررسی تخصصی</a>
+</div>
+<div class="card">
+<div class="product-img"></div>
+<h3>آبرسان پوست چرب</h3>
+<p>آبرسانی سبک بدون ایجاد چربی</p>
+<div class="price">۲۹۸,۰۰۰ تومان</div>
+<a href="#" class="btn">بررسی تخصصی</a>
+</div>
+<div class="card">
+<div class="product-img"></div>
+<h3>تونر ملایم</h3>
+<p>مناسب پوست حساس و خشک</p>
+<div class="price">۲۴۹,۰۰۰ تومان</div>
+<a href="#" class="btn">بررسی تخصصی</a>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>چرا مُدیشین؟</h2>
+<div class="feature-box">
+<div class="feature">✔ تضمین اصالت کالا</div>
+<div class="feature">✔ انتخاب بر پایه ترکیبات</div>
+<div class="feature">✔ ارسال سریع</div>
+<div class="feature">✔ پشتیبانی واقعی</div>
+</div>
+</section>
+
+<section class="newsletter">
+<h2>عضو باشگاه مُدیشین شو</h2>
+<p>روتین اختصاصی و تخفیف‌های ویژه رو از دست نده</p>
+<br>
+<input type="text" placeholder="شماره موبایل">
+<a href="#" class="btn">عضویت</a>
+</section>
+
+<footer>
+© 2026 Modisheen - تمامی حقوق محفوظ است  
+<br><br>
+زیبایی آگاهانه، درخشش ماندگار
+</footer>
+
+</body>
+</html>
